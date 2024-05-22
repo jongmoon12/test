@@ -50,5 +50,12 @@ public class _05_Stream {
         // 90점 이상인 점수들을 정렬
         Arrays.stream(scores).filter(x -> x >= 90).sorted().forEach(System.out::println);
         System.out.println("----------------------");
+
+
+        // 90점 이상인 점수들을 정렬
+        Arrays.stream(scores).filter(x -> x >= 90).sorted().forEach(System.out::println);
+        System.out.println("----------------------");
+
+
     }
 }
